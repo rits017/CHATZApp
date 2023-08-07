@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CHATZApp</string>
+    <string name="bluetooth_on">bluetooth_on</string>
+    <string name="display">display</string>
+    <string name="bluetooth_off">bluetooth_off</string>
+    <string name="visible">visible</string>
+    <string name="login_to_continue">login_to_continue</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="log_in">log_in</string>
+    <string name="type_your_message">type_your_message</string>
+    <string name="send">send</string>
+    <string name="hear">hear</string>
+    <string name="listen">listen</string>
+</resources>

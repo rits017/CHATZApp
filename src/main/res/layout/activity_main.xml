@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#780D8A"
+    android:backgroundTint="#F0F8F7"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btOn"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#091975"
+        android:text="@string/bluetooth_on"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#820798"
+        android:text="@string/display"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@android:style/Widget.DeviceDefault.Light.TextView"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:background="#77092E"
+        android:backgroundTint="#E33A2D"
+        android:paddingLeft="150dp"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#151515"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/listView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="382dp"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564">
+
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btOff"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#985E08"
+        android:text="@string/bluetooth_off"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954"
+        tools:layout_editor_absoluteX="5dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="400dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#09770E"
+        android:text="@string/visible"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
